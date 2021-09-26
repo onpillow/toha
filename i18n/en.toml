@@ -63,19 +63,19 @@ other = "Improve this page"
 other = "out of"
 
 [publications]
-other = "Publications"
+other = "Thesis"
 
 [taken_courses]
-other = "Taken Courses"
+other = "Coursework"
 
 [course_name]
 other = "Course Name"
 
 [total_credit]
-other = "Total Credit"
+other = "Total Grade Point"
 
 [obtained_credit]
-other = "Obtained Credit"
+other = "Obtained Grade Point"
 
 [extracurricular_activities]
 other = "Extracurricular Activities"
@@ -114,10 +114,13 @@ other = "The page you are looking for is not there yet."
 other = "More"
 
 [view_certificate]
-other = "View Certificate"
+other = "View Slides"
 
 [notes]
 other = "Notes"
 
 [disclaimer_text]
 other = "Liability Notice"
+
+[view_paper]
+other = "View Paper"

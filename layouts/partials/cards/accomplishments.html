@@ -1,4 +1,4 @@
-<div class="col-md-12 col-lg-6 p-2">
+<div class="col-md-12 col-lg-12 p-2">
   <div class="card mt-3">
     <div class="card-header">
       <h5 class="card-title mb-0">{{ .name }}</h5>
@@ -11,9 +11,13 @@
       <p>{{ .courseOverview | markdownify }}</p>
     </div>
     <div class="card-footer">
-      {{ if .certificateURL }}
-        <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="{{ .certificateURL }}" target="_blank" rel="noopener" role="button">{{ i18n "view_certificate"}}</a>
+      {{ if .paperURL }}
+      <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="{{ .paperURL }}" target="_blank" rel="noopener" role="button">{{ i18n "view_paper"}}</a>
       {{ end }}
+
+      {{ if .certificateURL }}
+      <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="{{ .certificateURL }}" target="_blank" rel="noopener" role="button">{{ i18n "view_certificate"}}</a>
+      {{ end }}      
     </div>
   </div>
 </div>
